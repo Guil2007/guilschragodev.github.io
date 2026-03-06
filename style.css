@@ -4,13 +4,19 @@
 
         body {
             
-            background-image: linear-gradient(to right,#f8f6f6, #434244);
-            width: auto;
+           /* background-image: linear-gradient(to right,#f8f6f6, #434244);*/
+           background-image: url(GSMULTI_1080.jpeg);
+           background-size: cover;
+           background-position: left;
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+            /*width: auto;*/
+
         }
 
 
             main {
-                background-color: #d4cdebaf;
+                background-color: #f8f8f5e1;
                 border-radius: 15px ;
                 box-shadow: 5px 5px 15px #110027;
                 width: 310px;
@@ -20,26 +26,33 @@
             }
 
         h1 {
-            background-color: #1c1c447c;
+            background-color: #4942227c;
             padding: 10px;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            color: #110d46e8;
-            text-shadow:1px 1px 1px #c4b9d6;
+            color: #0e124bf1;
+            text-shadow:1px 1px 1px #9092b1;
             text-align: center;
         }
         h2 {
             font-family: "Indie Flower", cursive;
-            font-size: 2em;
-            font-weight: 800;
+            font-size: 3em;
+            font-weight: 990;
             font-style: normal;
+            color: rgb(182, 53, 3);
+            text-shadow: 1px 1px 1px rgb(238, 236, 240);
         }
             
 
 
         h3 {
+            width: 320px;
+            background-color: #5f5a46f3;
+            border-radius:15px ;
+            box-shadow: 5px 5px 15px #110027;
             padding: 10px;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 15px;
+            color: #f5ded2;
         }
         
         .lista-horizontal {
@@ -48,17 +61,27 @@
             padding: 0;
             margin: 0;
             gap: 10px;
+            width: 350px;
+            background-color: #f5f2e7f3;
+            border-radius:15px ;
+            box-shadow: 5px 5px 15px #110027;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            color: #f5ded2;
         }
 
         p {
             padding: 10px;
             font-family: Arial, Helvetica, sans-serif;
-            color: #0e0d0d;
+            color: #a35324;
         }
     footer {
-        background-color: #6b5a7e;
+        background-color: #a35324;
         padding: 10px;
         text-align: center;
         margin-top: 20px;
     }
+
+    
     </style>
